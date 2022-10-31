@@ -4057,6 +4057,7 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -11362,6 +11363,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
+  
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
