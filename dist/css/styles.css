@@ -113,7 +113,9 @@ hr {
   padding: 1em;
 }
 
-
+.svcIcon {
+  z-index: 2;
+}
 
 hr:not([size]) {
   height: 1px;
