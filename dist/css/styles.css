@@ -4233,7 +4233,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    background-color: teal;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4286,7 +4286,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    background-color: teal;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4531,6 +4531,10 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
   color: #fff;
+}
+
+#teal {
+  background-color: teal;
 }
 
 .card {
@@ -11398,10 +11402,10 @@ p {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: .35rem;
+    padding-bottom: .005rem;
     border: none;
-    background-color: transparent;
+    background-color: teal;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11432,6 +11436,7 @@ p {
   }
 }
 header.masthead {
+  margin-top: 1rem;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
